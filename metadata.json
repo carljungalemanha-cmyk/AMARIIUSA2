@@ -1,0 +1,7 @@
+{
+  "name": "Amarii Beauty Spa",
+  "description": "Catálogo online exclusivo de tratamentos faciais, corporais e depilação a laser do Amarii Beauty Spa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

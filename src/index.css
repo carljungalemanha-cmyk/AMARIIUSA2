@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A87932 0%, #D4AF37 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: #C5A059;
+}
+
+.gold-border-subtle {
+  border-color: rgba(197, 160, 89, 0.45);
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #C5A059 0%, #DFBA73 50%, #B38C40 100%);
+}
+
+.gold-shimmer-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.gold-shimmer-hover:hover {
+  border-color: #B38C40;
+  box-shadow: 0 4px 20px -2px rgba(197, 160, 89, 0.22);
+}
